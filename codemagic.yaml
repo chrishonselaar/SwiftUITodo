@@ -7,7 +7,7 @@ workflows:
         environment:
             vars:
                 XCODE_WORKSPACE: "SwiftUITodo.xcodeproj/project.xcworkspace/contents.xcworkspacedata"
-                XCODE_SCHEME: "clearcodenl"
+                XCODE_SCHEME: "Runner"
             xcode: latest
             cocoapods: default
         scripts:
